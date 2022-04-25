@@ -1,0 +1,419 @@
+@import 'base';
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap");
+
+// Agregado para hacer el contact inicial
+
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#container-intouch{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'victorbartis';
+
+  
+  #titulo-intouch{
+    
+    padding-left: 10%;
+    padding-top: 15%;
+    position: relative;
+    
+    h4{
+      font-size: 4rem;
+      font-weight: lighter;
+    }
+
+    h2{
+      font-size: 5rem;
+      font-weight: lighter;
+    }
+
+    #mail-intouch{
+      position: absolute;
+      right: -55%;
+      bottom: 10%;
+      width: 300px;
+
+      a{
+        font-size: 1.5rem;
+      }
+
+      p{
+        margin-top: 10px;
+        text-align: left;
+        color: $color-letra-oscura;
+      }
+
+    }
+  }
+
+  img{
+    height: 85vh;
+    opacity: 50%;
+  }
+}
+
+//formulario y faq
+
+.container-formfaq{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+//formulario contacto
+
+.container-form {
+  flex: 1 1 40%;
+  flex-flow: row wrap;
+  border: solid 3px  $color-letra-oscura;
+  margin: 10%;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: $color-letra-oscura;
+  font: inherit;
+  margin: 0;
+  font-family: "optima";
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color:  $color-letra-oscura;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px $color-letra-oscura;
+	color: $color-letra-oscura;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+  height: 170px;
+}
+
+.name {
+	float: left;
+	width: 45%;
+  
+}
+
+select {
+  background: $color-fondo;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: $color-letra-oscura;
+}
+
+:-moz-placeholder { 
+	color: $color-letra-oscura;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: $color-letra-oscura;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: $color-letra-oscura;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px $color-letra-oscura;
+  color: $color-letra-oscura;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'optima';
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: $color-letra-oscura;
+  color: #F2F3EB;
+}
+
+//FAQ
+.container-faq {
+  flex: 1 1 40%;
+  margin: 10px;
+  padding: 10% 5% 0 0;
+
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid $color-letra-oscura;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] {
+  border-bottom: 1px solid $color-letra-oscura;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: var(--blue);
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+  font-weight: 600;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] {
+  color: $color-letra-oscura;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] + .content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+}
+
+.content {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 200ms linear, max-height 200ms linear;
+}
+
+.content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 1em 0;
+}
+
+.faq-p{
+  color: $color-letra-oscura;
+  text-align: justify;
+}
+
+
+
+//]instagram
+.container-instagram{
+  display: flex;
+  margin:0 10% 10% 10%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+
+
+@media all and (max-width:1000px){
+  .container-formfaq{
+      flex-direction: column;
+      margin: 10%;
+  }
+
+  #titulo-intouch{
+    padding-left: 0% !important;
+  }
+  
+  
+
+  #container-intouch{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#mail-intouch{
+  display: none;
+  
+
+  a{
+    font-size: 1.5rem;
+  }
+
+  p{
+    margin-top: 10px;
+    text-align: left;
+    color: $color-letra-oscura;
+  }
+
+}
+
+}
+@media all and (max-width:815px){
+  .container-instagram{
+    justify-content: center;
+    margin: 5px;
+  }
+}
+
+@media all and (max-width:600px){
+  .container-formfaq{
+      flex-direction: column;
+      margin: 5px;
+  }s
+  .container-form{
+    margin: 0px;
+}
+  
+  h4{
+    font-size: 4rem !important;
+    
+  }
+  h2{
+    font-size: 3rem  !important;
+    text-align: center;
+    
+  }
+  .fa-angle-right{
+    display: none;
+  }
+  #container-intouch img{
+    display: flex;
+  }
+}

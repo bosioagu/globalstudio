@@ -1,0 +1,150 @@
+@import 'base';
+
+
+
+//marquee
+
+.cabecera{
+    background-color: $color-letra-oscura;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: .9rem;
+    height: 2.8rem;
+}
+
+.texto-cabecera{
+    animation-name: marquee;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    flex-shrink: 0;
+}
+
+.texto-cabecera li{
+    color: $color-letra-clara;
+    width: fit-content;
+    display: inline-block;
+    list-style: none;
+    font-size: 1rem;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+
+nav ul{
+    display: flex;
+    margin-top:  -1.5rem;
+    align-items: center; //agregado
+    
+    
+}
+nav li{
+    
+    margin: 0 1.2rem;
+    
+}
+
+.push-right{
+    margin-left: auto;
+}
+
+
+li {
+    font-family: 'optima';
+}
+
+a{
+    font-family: 'optima';
+}
+
+.titulo-cabecera{
+    color: $color-letra-clara;
+    display: table;  //agregado 
+    text-align: center; //agregado
+    padding-top: 1.2rem;//agregado 
+    padding-bottom: .05rem;//agregado 
+    height:100px;//agregado 
+    width: 100%; //agregado 
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: .25rem;
+
+}
+ 
+.img-logo{
+    width:3rem;
+    vertical-align: middle;
+    padding-bottom: .01rem;
+    padding-top: .4rem;
+}
+
+.nav-texto{
+    font-size: .9rem;
+}
+
+nav ul li:hover{
+    font-weight: bolder;
+}
+
+
+
+.icono-nav{
+    padding-bottom: .5rem;
+}
+
+.icono-world{
+    width: 1.6rem;
+    vertical-align: middle;
+}
+
+
+.icono-instagram{
+    width: 1.8rem;
+    vertical-align: middle;
+}
+
+.hr-dark{
+    color: $color-letra-clara;
+    border-color: $color-letra-clara;
+}
+
+
+// header fondo claro
+
+.titulo-cabecera-light{
+    color: $color-letra-oscura;
+    display: table;  //agregado 
+    text-align: center; //agregado
+    padding-top: 1.2rem;//agregado 
+    padding-bottom: .05rem;//agregado 
+    height:100px;//agregado 
+    width: 100%; //agregado 
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: .25rem;
+
+}
+
+.nav-texto-light{
+    font-size: .9rem;
+    color: $color-letra-oscura;
+}
+
+
+.img-logo{
+    width:3rem;
+    vertical-align: middle;
+    padding-bottom: .01rem;
+    padding-top: .4rem;
+}
+.hr-light{
+    color: $color-letra-oscura;
+    
+}
+

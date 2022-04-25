@@ -1,0 +1,109 @@
+@import 'base';
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+footer{
+    // position: absolute; //Lo comente porque me tapaba parte de los circulos
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $color-letra-oscura;
+    height: auto;
+    width: 100vw;
+    padding-top: 10px;
+    color:$color-letra-clara;
+}
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.footer-content p{
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 10px;
+    font-size: 14px;
+    color:$color-letra-clara;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    font-weight: bold;
+}
+
+.footer-bottom{
+    background: $color-letra-oscura;;
+    width: 100vw;
+    padding-left: 1rem;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    float: left;
+}
+.footer-bottom p a{
+
+color:$color-letra-clara;
+font-weight: 100;
+font-size: 12px;
+text-decoration: none;
+}
+
+.footer-menu ul{
+    display: flex;
+}
+
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+
+.footer-menu ul li a{
+    color: $color-letra-clara;
+    text-decoration: none;
+}
+
+b{
+    color: $color-letra-clara;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover{
+    font-weight: bold;
+} 
+
+@media (max-width:500px) {
+    .footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+    }

@@ -1,0 +1,160 @@
+@import 'base';
+
+.contenedor-galeria{
+    position: relative;
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    // grid-auto-rows: 250px;
+    // gap: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.texto-services{
+    color: $color-letra-oscura;
+    background-color: $color-fondo;
+    padding: 0;
+}
+
+.titulo-grilla{
+    margin: 10px;
+    font-family: 'victorbartis'; 
+}
+
+.imagen-galeria{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor-lineas-titulo{
+    display: grid;
+}
+
+.linea1-titulo{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 3rem;
+    z-index: 10;
+}
+
+.linea2-titulo{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 4rem;
+}
+
+.linea3-titulo{
+    position: absolute;
+    top:67%;
+    left:30%
+}
+
+
+.item-galeria{
+    width: 100%;
+    height:35rem;
+}
+
+//Replica de imagen services
+
+.contenedor-services{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#div-arquitectura{
+    height: 250px;
+    .item-arq{
+        h4{
+            text-align: left;
+            margin-left: 15%;
+            margin-right: 15%;
+            font-size: 2rem;
+            font-weight: normal;
+            margin-bottom: 1%;
+
+        }
+        hr{
+            border-color: $color-letra-oscura;
+            margin-right: 60%;
+        }
+        p{
+            text-align: left;
+            margin-left: 15%;
+            margin-right: 15%;
+            font-style: italic;
+            color: $color-letra-oscura;
+        }
+    }
+    }
+    
+
+#div-interiorismo{
+   height: 250px;
+    h4{
+        text-align: left;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 3rem;
+        font-weight: normal;
+        margin-bottom: 1%;
+    }
+    hr{
+        border-color: $color-letra-oscura;
+        margin-right: 30%;
+    }
+    p{
+        text-align: left;
+        margin-left: 25%;
+        margin-right: 25%;
+        color: $color-letra-oscura;
+        font-style: italic;
+    }
+    
+}
+
+#div-branding{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    .bloque-interior{
+        .item-arq{
+            text-align: center;
+            h4{
+                margin-left: 10%;
+                margin-right: 10%;
+                text-align: left;
+                padding-left: 10%;
+                font-size: 2.5rem;
+                font-weight: normal;
+                margin-bottom: 1%;
+            }
+            hr{
+                border-color: $color-letra-oscura;
+                
+            }
+            p{
+                margin-left: 10%;
+                margin-right: 10%;
+                text-align: left;
+                padding-left: 10%;
+                color: $color-letra-oscura;
+                font-style: italic;
+            }
+        }
+    }
+}
+
+ 
+.item-circulo{
+    width: 100%;
+}

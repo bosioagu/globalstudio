@@ -1,0 +1,1820 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap");
+@font-face {
+  font-family: "victorbartis";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Victor\ Bartis\ -\ Kaftan\ Serif.otf) format("truetype");
+}
+@font-face {
+  font-family: "myriadpro";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/MyriadPro-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "optima";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Optima\ Medium.woff) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #45401e;
+}
+
+body {
+  background-color: #f7e1bc;
+}
+
+h1 {
+  text-align: center;
+  font-family: "victorbartis";
+}
+
+h5 {
+  font-family: "optima";
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  font-family: "myriadpro";
+  text-align: center;
+}
+
+main p {
+  padding-top: 10%;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.texto-xpx {
+  font-size: 6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "optima";
+}
+
+a {
+  font-family: "optima";
+}
+
+@font-face {
+  font-family: "victorbartis";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Victor\ Bartis\ -\ Kaftan\ Serif.otf) format("truetype");
+}
+@font-face {
+  font-family: "myriadpro";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/MyriadPro-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "optima";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Optima\ Medium.woff) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #45401e;
+}
+
+body {
+  background-color: #f7e1bc;
+}
+
+h1 {
+  text-align: center;
+  font-family: "victorbartis";
+}
+
+h5 {
+  font-family: "optima";
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  font-family: "myriadpro";
+  text-align: center;
+}
+
+main p {
+  padding-top: 10%;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.texto-xpx {
+  font-size: 6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "optima";
+}
+
+a {
+  font-family: "optima";
+}
+
+.bodyindex {
+  background-color: #f7e1bc;
+  color: aliceblue;
+}
+
+video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -10;
+  filter: grayscale(60%);
+}
+
+.titulo-index {
+  font-family: "victorbartis";
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.texto-index {
+  color: aliceblue;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-izq {
+  text-align: left;
+}
+
+.texto-der {
+  text-align: right;
+}
+
+h2.texto-cen {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor-presentacion {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1%;
+}
+
+@font-face {
+  font-family: "victorbartis";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Victor\ Bartis\ -\ Kaftan\ Serif.otf) format("truetype");
+}
+@font-face {
+  font-family: "myriadpro";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/MyriadPro-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "optima";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Optima\ Medium.woff) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #45401e;
+}
+
+body {
+  background-color: #f7e1bc;
+}
+
+h1 {
+  text-align: center;
+  font-family: "victorbartis";
+}
+
+h5 {
+  font-family: "optima";
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  font-family: "myriadpro";
+  text-align: center;
+}
+
+main p {
+  padding-top: 10%;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.texto-xpx {
+  font-size: 6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "optima";
+}
+
+a {
+  font-family: "optima";
+}
+
+.contenedor-galeria {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.texto-services {
+  color: #45401e;
+  background-color: #f7e1bc;
+  padding: 0;
+}
+
+.titulo-grilla {
+  margin: 10px;
+  font-family: "victorbartis";
+}
+
+.imagen-galeria {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenedor-lineas-titulo {
+  display: grid;
+}
+
+.linea1-titulo {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 3rem;
+  z-index: 10;
+}
+
+.linea2-titulo {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 4rem;
+}
+
+.linea3-titulo {
+  position: absolute;
+  top: 67%;
+  left: 30%;
+}
+
+.item-galeria {
+  width: 100%;
+  height: 35rem;
+}
+
+.contenedor-services {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#div-arquitectura {
+  height: 250px;
+}
+#div-arquitectura .item-arq h4 {
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 1%;
+}
+#div-arquitectura .item-arq hr {
+  border-color: #45401e;
+  margin-right: 60%;
+}
+#div-arquitectura .item-arq p {
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-style: italic;
+  color: #45401e;
+}
+
+#div-interiorismo {
+  height: 250px;
+}
+#div-interiorismo h4 {
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 1%;
+}
+#div-interiorismo hr {
+  border-color: #45401e;
+  margin-right: 30%;
+}
+#div-interiorismo p {
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #45401e;
+  font-style: italic;
+}
+
+#div-branding {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+#div-branding .bloque-interior .item-arq {
+  text-align: center;
+}
+#div-branding .bloque-interior .item-arq h4 {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  padding-left: 10%;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 1%;
+}
+#div-branding .bloque-interior .item-arq hr {
+  border-color: #45401e;
+}
+#div-branding .bloque-interior .item-arq p {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  padding-left: 10%;
+  color: #45401e;
+  font-style: italic;
+}
+
+.item-circulo {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "victorbartis";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Victor\ Bartis\ -\ Kaftan\ Serif.otf) format("truetype");
+}
+@font-face {
+  font-family: "myriadpro";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/MyriadPro-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "optima";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Optima\ Medium.woff) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #45401e;
+}
+
+body {
+  background-color: #f7e1bc;
+}
+
+h1 {
+  text-align: center;
+  font-family: "victorbartis";
+}
+
+h5 {
+  font-family: "optima";
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  font-family: "myriadpro";
+  text-align: center;
+}
+
+main p {
+  padding-top: 10%;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.texto-xpx {
+  font-size: 6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "optima";
+}
+
+a {
+  font-family: "optima";
+}
+
+.cabecera {
+  background-color: #45401e;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 0.9rem;
+  height: 2.8rem;
+}
+
+.texto-cabecera {
+  animation-name: marquee;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  flex-shrink: 0;
+}
+
+.texto-cabecera li {
+  color: aliceblue;
+  width: fit-content;
+  display: inline-block;
+  list-style: none;
+  font-size: 1rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+nav ul {
+  display: flex;
+  margin-top: -1.5rem;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 1.2rem;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+li {
+  font-family: "optima";
+}
+
+a {
+  font-family: "optima";
+}
+
+.titulo-cabecera {
+  color: aliceblue;
+  display: table;
+  text-align: center;
+  padding-top: 1.2rem;
+  padding-bottom: 0.05rem;
+  height: 100px;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.25rem;
+}
+
+.img-logo {
+  width: 3rem;
+  vertical-align: middle;
+  padding-bottom: 0.01rem;
+  padding-top: 0.4rem;
+}
+
+.nav-texto {
+  font-size: 0.9rem;
+}
+
+nav ul li:hover {
+  font-weight: bolder;
+}
+
+.icono-nav {
+  padding-bottom: 0.5rem;
+}
+
+.icono-world {
+  width: 1.6rem;
+  vertical-align: middle;
+}
+
+.icono-instagram {
+  width: 1.8rem;
+  vertical-align: middle;
+}
+
+.hr-dark {
+  color: aliceblue;
+  border-color: aliceblue;
+}
+
+.titulo-cabecera-light {
+  color: #45401e;
+  display: table;
+  text-align: center;
+  padding-top: 1.2rem;
+  padding-bottom: 0.05rem;
+  height: 100px;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.25rem;
+}
+
+.nav-texto-light {
+  font-size: 0.9rem;
+  color: #45401e;
+}
+
+.img-logo {
+  width: 3rem;
+  vertical-align: middle;
+  padding-bottom: 0.01rem;
+  padding-top: 0.4rem;
+}
+
+.hr-light {
+  color: #45401e;
+}
+
+@font-face {
+  font-family: "victorbartis";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Victor\ Bartis\ -\ Kaftan\ Serif.otf) format("truetype");
+}
+@font-face {
+  font-family: "myriadpro";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/MyriadPro-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "optima";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Optima\ Medium.woff) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #45401e;
+}
+
+body {
+  background-color: #f7e1bc;
+}
+
+h1 {
+  text-align: center;
+  font-family: "victorbartis";
+}
+
+h5 {
+  font-family: "optima";
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  font-family: "myriadpro";
+  text-align: center;
+}
+
+main p {
+  padding-top: 10%;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.texto-xpx {
+  font-size: 6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "optima";
+}
+
+a {
+  font-family: "optima";
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #45401e;
+  height: auto;
+  width: 100vw;
+  padding-top: 10px;
+  color: aliceblue;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content p {
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 10px;
+  font-size: 14px;
+  color: aliceblue;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+  font-weight: bold;
+}
+
+.footer-bottom {
+  background: #45401e;
+  width: 100vw;
+  padding-left: 1rem;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  float: left;
+}
+
+.footer-bottom p a {
+  color: aliceblue;
+  font-weight: 100;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-menu ul {
+  display: flex;
+}
+
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+
+.footer-menu ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+b {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+@font-face {
+  font-family: "victorbartis";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Victor\ Bartis\ -\ Kaftan\ Serif.otf) format("truetype");
+}
+@font-face {
+  font-family: "myriadpro";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/MyriadPro-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "optima";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Optima\ Medium.woff) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #45401e;
+}
+
+body {
+  background-color: #f7e1bc;
+}
+
+h1 {
+  text-align: center;
+  font-family: "victorbartis";
+}
+
+h5 {
+  font-family: "optima";
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  font-family: "myriadpro";
+  text-align: center;
+}
+
+main p {
+  padding-top: 10%;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.texto-xpx {
+  font-size: 6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "optima";
+}
+
+a {
+  font-family: "optima";
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#container-intouch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "victorbartis";
+}
+#container-intouch #titulo-intouch {
+  padding-left: 10%;
+  padding-top: 15%;
+  position: relative;
+}
+#container-intouch #titulo-intouch h4 {
+  font-size: 4rem;
+  font-weight: lighter;
+}
+#container-intouch #titulo-intouch h2 {
+  font-size: 5rem;
+  font-weight: lighter;
+}
+#container-intouch #titulo-intouch #mail-intouch {
+  position: absolute;
+  right: -55%;
+  bottom: 10%;
+  width: 300px;
+}
+#container-intouch #titulo-intouch #mail-intouch a {
+  font-size: 1.5rem;
+}
+#container-intouch #titulo-intouch #mail-intouch p {
+  margin-top: 10px;
+  text-align: left;
+  color: #45401e;
+}
+#container-intouch img {
+  height: 85vh;
+  opacity: 50%;
+}
+
+.container-formfaq {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-form {
+  flex: 1 1 40%;
+  flex-flow: row wrap;
+  border: solid 3px #45401e;
+  margin: 10%;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #45401e;
+  font: inherit;
+  margin: 0;
+  font-family: "optima";
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #45401e;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+input[type=text], [type=email], select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #45401e;
+  color: #45401e;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type=text]:focus, [type=email]:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+.message {
+  float: none;
+  height: 170px;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+select {
+  background: #f7e1bc;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #45401e;
+}
+
+:-moz-placeholder {
+  color: #45401e;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #45401e;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #45401e;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #45401e;
+  color: #45401e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "optima";
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #45401e;
+  color: #F2F3EB;
+}
+
+.container-faq {
+  flex: 1 1 40%;
+  margin: 10px;
+  padding: 10% 5% 0 0;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #45401e;
+}
+
+.accordion .accordion-item button[aria-expanded=true] {
+  border-bottom: 1px solid #45401e;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: var(--blue);
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+  font-weight: 600;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion .accordion-item button[aria-expanded=true] {
+  color: #45401e;
+}
+
+.accordion .accordion-item button[aria-expanded=true] .icon::after {
+  width: 0;
+}
+
+.accordion .accordion-item button[aria-expanded=true] + .content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+}
+
+.content {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 200ms linear, max-height 200ms linear;
+}
+
+.content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 1em 0;
+}
+
+.faq-p {
+  color: #45401e;
+  text-align: justify;
+}
+
+.container-instagram {
+  display: flex;
+  margin: 0 10% 10% 10%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 1000px) {
+  .container-formfaq {
+    flex-direction: column;
+    margin: 10%;
+  }
+
+  #titulo-intouch {
+    padding-left: 0% !important;
+  }
+
+  #container-intouch {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #mail-intouch {
+    display: none;
+  }
+  #mail-intouch a {
+    font-size: 1.5rem;
+  }
+  #mail-intouch p {
+    margin-top: 10px;
+    text-align: left;
+    color: #45401e;
+  }
+}
+@media all and (max-width: 815px) {
+  .container-instagram {
+    justify-content: center;
+    margin: 5px;
+  }
+}
+@media all and (max-width: 600px) {
+  .container-formfaq {
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  s .container-form {
+    margin: 0px;
+  }
+
+  h4 {
+    font-size: 4rem !important;
+  }
+
+  h2 {
+    font-size: 3rem !important;
+    text-align: center;
+  }
+
+  .fa-angle-right {
+    display: none;
+  }
+
+  #container-intouch img {
+    display: flex;
+  }
+}
+@font-face {
+  font-family: "victorbartis";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Victor\ Bartis\ -\ Kaftan\ Serif.otf) format("truetype");
+}
+@font-face {
+  font-family: "myriadpro";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/MyriadPro-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "optima";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Optima\ Medium.woff) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #45401e;
+}
+
+body {
+  background-color: #f7e1bc;
+}
+
+h1 {
+  text-align: center;
+  font-family: "victorbartis";
+}
+
+h5 {
+  font-family: "optima";
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  font-family: "myriadpro";
+  text-align: center;
+}
+
+main p {
+  padding-top: 10%;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.texto-xpx {
+  font-size: 6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "optima";
+}
+
+a {
+  font-family: "optima";
+}
+
+#whosbehind-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+#whosbehind-container #whosbehind-title {
+  grid-column: 1/3;
+  font-family: "victorbartis";
+  font-size: 4rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#whosbehind-container #whosbehind-text {
+  grid-column: 1/3;
+  margin-right: 15%;
+  margin-top: 0%;
+}
+#whosbehind-container #whosbehind-contact {
+  grid-column: 1/3;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+#whosbehind-container #whosbehind-img {
+  grid-column: 3/4;
+  grid-row: 1/4;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#icono-container {
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#icono-container P {
+  color: #45401e;
+  text-align: center;
+}
+
+.titulo-procces {
+  color: #45401e;
+  font-family: "victorbartis";
+  font-size: 2rem;
+  text-align: start;
+  padding: 0%;
+  margin: 0%;
+  margin-left: 5%;
+}
+
+#process-container {
+  margin: 5%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: row;
+  gap: 1rem;
+}
+#process-container .item-process div {
+  border: solid #45401e 1px;
+  padding: 1rem;
+}
+#process-container .item-process .texto-process {
+  border-top: 1px;
+  height: 15rem;
+  padding: 1rem;
+}
+
+.grid-together {
+  display: flex;
+  justify-content: center;
+}
+
+.item-together {
+  display: table;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: #c0b08c;
+}
+.item-together .num {
+  font-size: 4rem;
+  font-family: "victorbartis";
+  position: absolute;
+  top: -30px;
+  left: 20px;
+}
+.item-together p {
+  color: #45401e;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.25rem;
+}
+
+.booking-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.booking-container .item-booking {
+  font-family: "victorbartis";
+  font-size: 3rem;
+  background-color: #45401e;
+  color: aliceblue;
+  text-align: center;
+  margin: 50px;
+}
+.booking-container .item-booking a {
+  color: aliceblue;
+  font-family: "victorbartis";
+}
+.booking-container p {
+  color: #45401e;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 782px) {
+  .titulo-index {
+    font-size: 2rem;
+    text-align: left;
+    margin: 0;
+  }
+
+  .parrafo-index {
+    font-size: 0.7rem;
+  }
+
+  main {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+  }
+
+  main p {
+    font-size: 1rem;
+  }
+
+  .texto-xpx {
+    font-size: 3rem;
+  }
+
+  .contenedor-galeria {
+    grid-template-columns: 1fr;
+  }
+
+  .linea1-titulo {
+    top: 5%;
+    left: 0%;
+    font-size: 2rem;
+  }
+
+  .linea2-titulo {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    font-size: 2.5rem;
+  }
+
+  .item-galeria {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .contenedor-services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  #div-arquitectura {
+    height: 0%;
+  }
+
+  #div-interiorismo {
+    height: 0%;
+  }
+
+  #whosbehind-container {
+    grid-template-columns: 1fr;
+  }
+  #whosbehind-container #whosbehind-contact {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #whosbehind-container #whosbehind-title {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  #whosbehind-container #whosbehind-img {
+    display: none;
+  }
+
+  #process-container {
+    display: none;
+  }
+
+  .titulo-procces {
+    margin-left: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  #icono-container {
+    display: none;
+  }
+
+  .booking-container {
+    grid-template-columns: 1fr;
+  }
+  .booking-container .item-booking {
+    font-size: 2rem;
+    margin: 10px;
+  }
+
+  .grid-together {
+    flex-direction: column;
+  }
+
+  #texto-intouch {
+    display: none;
+  }
+}
+@font-face {
+  font-family: "victorbartis";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Victor\ Bartis\ -\ Kaftan\ Serif.otf) format("truetype");
+}
+@font-face {
+  font-family: "myriadpro";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/MyriadPro-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "optima";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Optima\ Medium.woff) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #45401e;
+}
+
+body {
+  background-color: #f7e1bc;
+}
+
+h1 {
+  text-align: center;
+  font-family: "victorbartis";
+}
+
+h5 {
+  font-family: "optima";
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  font-family: "myriadpro";
+  text-align: center;
+}
+
+main p {
+  padding-top: 10%;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.texto-xpx {
+  font-size: 6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "optima";
+}
+
+a {
+  font-family: "optima";
+}
+
+nav {
+  padding: 5px 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu li {
+  padding: 15px 5px;
+  white-space: nowrap;
+}
+
+.toggle a {
+  font-size: 20px;
+}
+
+.button.secondary {
+  border-bottom: 1px #444 solid;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+.hamburguer {
+  color: aliceblue;
+}
+
+.hamburguer-light {
+  color: #45401e;
+}
+
+.fa-bars {
+  color: aliceblue;
+}
+
+.fa-times {
+  color: aliceblue;
+}
+
+nav ul {
+  display: flex;
+  margin-top: -1.5rem;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 1.2rem;
+}
+
+.nav-texto {
+  font-size: 0.9rem;
+}
+
+.nav-texto-light {
+  font-size: 0.9rem;
+  color: #45401e;
+}
+
+li {
+  font-family: "optima";
+}
+
+nav ul li:hover {
+  font-weight: bolder;
+}
+
+.icono-nav {
+  padding-bottom: 0.5rem;
+}
+
+.icono-world {
+  width: 1.6rem;
+  vertical-align: middle;
+}
+
+.icono-instagram {
+  width: 1.8rem;
+  vertical-align: middle;
+}
+
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  order: 1;
+}
+
+.item.button {
+  order: 2;
+}
+
+.item {
+  width: 100%;
+  text-align: right;
+  order: 3;
+  display: none;
+}
+
+.item.active {
+  display: block;
+}
+
+/* Tablet menu */
+@media all and (min-width: 600px) {
+  .menu {
+    justify-content: center;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .toggle {
+    flex: 1;
+    text-align: right;
+  }
+
+  .item.button {
+    width: auto;
+    order: 1;
+    display: block;
+  }
+
+  .toggle {
+    order: 2;
+  }
+
+  .button.secondary {
+    border: 0;
+  }
+
+  .button a {
+    padding: 7.5px 15px;
+  }
+
+  .button.secondary a {
+    background: transparent;
+  }
+
+  .button a:hover {
+    text-decoration: none;
+  }
+
+  .button:not(.secondary) a:hover {
+    background: #006d6d;
+    border-color: #005959;
+  }
+
+  .button.secondary a:hover {
+    color: #ddd;
+  }
+}
+/* Desktop menu */
+@media all and (min-width: 900px) {
+  .item {
+    display: block;
+    width: auto;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .logo {
+    order: 0;
+  }
+
+  .item {
+    order: 1;
+  }
+
+  .button {
+    order: 2;
+  }
+
+  .menu li {
+    padding: 15px 10px;
+  }
+
+  .menu li.button {
+    padding-right: 0;
+  }
+}
+
+/*# sourceMappingURL=mainstyle.css.map */
